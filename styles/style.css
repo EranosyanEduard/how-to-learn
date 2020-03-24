@@ -181,7 +181,6 @@
 .table__cell_theme_dark {
     width: 200px;
     color: white;
-    margin-right: 0;
     margin-top: 80px;
 }
 
@@ -223,6 +222,10 @@
   text-decoration: none;
 }
 
+.feinman__link:hover {
+  color: #2f80ed;
+}
+
 /* Content: kaufman */
 
 .kaufman {
@@ -234,8 +237,8 @@
 }
 
 .kaufman__triangle {
-  height: 877px;
   width: 877px;
+  height: 877px;
   position: absolute;
   top: 0;
   right: -210px;
@@ -255,13 +258,9 @@
   margin: 60px auto 40px;
   display: flex;
   justify-content: space-between;
-}
-
-.footer__column {
   color: #fff;
   line-height: 30px;
   font-size: 18px;
-  font-weight: normal;
 }
 
 .footer__column_content_copyright {
@@ -269,27 +268,33 @@
   position: relative;
 }
 
+.footer__column_content_social {
+  font-size: 10px;
+}
+
 .footer__column-heading {
   margin: 0;
-  font-weight: bold;
+  font-size: 18px;
 }
 
 .footer__column-links {
+  list-style: none;
   margin: 20px 0 16px;
+  padding: 0;
 }
 
-.footer__column-links > a {
+.footer__link {
   color: #fff;
   text-decoration: none;
 }
 
-.footer__column-links[img] {
-  font-size: 10px;
+.footer__link:hover {
+  color: #2f80ed;
 }
 
 .footer__social-icon {
-  height: 16px;
   width: 16px;
+  height: 16px;
 }
 
 .footer__author {
