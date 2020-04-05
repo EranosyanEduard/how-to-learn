@@ -1,3 +1,12 @@
+@keyframes square-360-deg {
+  from {
+    transform: rotate(-15deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .header__square-pic {
   width: 568px;
   height: 568px;
@@ -5,4 +14,6 @@
   position: absolute;
   top: 64px;
   right: 0;
+  transform: rotate(-15deg);
+  animation: square-360-deg 20s linear infinite;
 }
