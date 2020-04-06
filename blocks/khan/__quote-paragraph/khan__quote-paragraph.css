@@ -1,0 +1,7 @@
+.khan__quote-paragraph {
+  margin: 0 0 30px;
+}
+
+.khan__quote-paragraph:last-of-type {
+  margin-bottom: 0;
+}
