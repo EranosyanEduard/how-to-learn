@@ -8,7 +8,6 @@
   <meta name="keywords" content="HTML, CSS">
   <meta name="author" content="Ераносян Эдуард">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="shortcut icon" href="./images/favicon.ico">
 </head>
@@ -16,13 +15,13 @@
 <body>
   <div class="page">
     <header class="header">
-      <img class="logo logo_place_header" src="./images/logo.svg" alt="Логотип сервиса 'Яндекс Практикум'.">
+      <a class="logo logo_place_header link" href="https://praktikum.yandex.ru/"></a>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к
         обучению вы можете использовать в своей жизни?
         <a class="header__link link" href="#">Узнать &rarr;</a>
       </p>
-      <img class="header__main-illustration" src="./images/two_again.png"
+      <img class="header__main-illustration" src="./images/header/two_again.png"
         alt="Картина 'Опять двойка', Фёдор Решетников, 1952 год.">
       <div class="header__square-pic"></div>
     </header>
@@ -56,7 +55,7 @@
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <ul class="cards">
           <li class="cards__item">
-            <img class="cards__image" src="./images/attention.png"
+            <img class="cards__image" src="./images/cards/attention.png"
               alt="Книга '101 очерк, который изменит ваш образ мышления', Брианна Уист.">
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать
@@ -64,21 +63,21 @@
             </p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="./images/recall.png" alt="Статуэтка 'Обнажённый курящий мужчина'.">
+            <img class="cards__image" src="./images/cards/recall.png" alt="Статуэтка 'Обнажённый курящий мужчина'.">
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное — это позволит
               соединить разрозненные порции памяти.
             </p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="./images/interliving.png" alt="Фотография 'Мемориал 9/11', Нью-Йорк, США.">
+            <img class="cards__image" src="./images/cards/interliving.png" alt="Фотография 'Мемориал 9/11', Нью-Йорк, США.">
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">Изучайте несколько навыков одновременно,
               они обогащают друг друга.
             </p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="./images/question.png"
+            <img class="cards__image" src="./images/cards/question.png"
               alt="Фотография человека, находящегося в помещении, которое имеет несколько выходов.">
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">Слушая преподавателя, придумывайте
@@ -86,7 +85,7 @@
             </p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="./images/competence.png"
+            <img class="cards__image" src="./images/cards/competence.png"
               alt="Фотография руки человека, держащей несколько книг.">
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите
@@ -100,10 +99,10 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" id="ytplayer" type="text/html" width="515px" height="316px"
-            src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allowfullscreen></iframe>
-          <iframe class="video__iframe" id="ytplayer" type="text/html" width="515px" height="316px"
-            src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allowfullscreen></iframe>
+          <iframe class="video__iframe" id="ytplayer1" width="515" height="316"
+            src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          <iframe class="video__iframe" id="ytplayer2" width="515" height="316"
+            src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -185,7 +184,7 @@
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <div class="khan__book-pic">
-              <img src="./images/book.jpg" alt="Книга 'Весь мир - школа: преобразованное образование', Салман Хан.">
+              <img src="./images/khan/book.jpg" alt="Книга 'Весь мир - школа: преобразованное образование', Салман Хан.">
             </div>
             <a href="#" class="khan__buy-link link">Купить книгу &rarr;</a>
           </div>
@@ -263,19 +262,19 @@
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <ul class="resources__logo-zone">
           <li class="resources__logo">
-            <a href="https://arzamas.academy/" class="link"><img src="./images/arzamas.svg"
+            <a href="https://arzamas.academy/" class="link"><img src="./images/resources/arzamas.svg"
                 alt="Логотип образовательного сервиса 'Арзамас'"></a>
           </li>
           <li class="resources__logo">
-            <a href="https://nplus1.ru/" class="link"><img src="./images/n1.svg"
+            <a href="https://nplus1.ru/" class="link"><img src="./images/resources/n1.svg"
                 alt="Логотип образовательного сервиса 'N+1'"></a>
           </li>
           <li class="resources__logo">
-            <a href="https://strelka.com/ru/home" class="link"><img src="./images/strelka.svg"
+            <a href="https://strelka.com/ru/home" class="link"><img src="./images/resources/strelka.svg"
                 alt="Логотип образовательного сервиса 'Strelka'"></a>
           </li>
           <li class="resources__logo">
-            <a href="https://polka.academy/" class="link"><img src="./images/polka.svg"
+            <a href="https://polka.academy/" class="link"><img src="./images/resources/polka.svg"
                 alt="Логотип образовательного сервиса 'Полка'"></a>
           </li>
         </ul>
@@ -285,8 +284,8 @@
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img class="logo logo_place_footer" src="./images/logo_white.svg" alt="Логотип сервиса 'ЯндексПрактикум'.">
-          <p class="footer__author">&copy; 2019, Ераносян Эдуард.</p>
+          <a class="logo logo_place_footer link" href="https://praktikum.yandex.ru/"></a>
+          <p class="footer__author">&copy; 2020, Ераносян Эдуард.</p>
         </div>
         <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
@@ -306,20 +305,20 @@
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
             <li>
-              <a class="footer__link link" href="https://ru-ru.facebook.com/yandex.praktikum/" lang="en">
-                <img class="footer__social-icon" src="./images/facebook_white.svg" alt="Логотип социальной сети">
+              <a class="footer__link link" href="https://ru-ru.facebook.com/yandex.praktikum/">
+                <img class="footer__social-icon" src="./images/footer/facebook_white.svg" alt="Логотип социальной сети">
                 Facebook
               </a>
             </li>
             <li>
               <a class="footer__link link" href="https://vk.com/yandex.praktikum">
-                <img class="footer__social-icon" src="./images/vk_white.svg" alt="Логотип социальной сети">
+                <img class="footer__social-icon" src="./images/footer/vk_white.svg" alt="Логотип социальной сети">
                 Вконтакте
               </a>
             </li>
             <li>
-              <a class="footer__link link" href="https://www.instagram.com/yndx.praktikum/" lang="en">
-                <img class="footer__social-icon" src="./images/instagram_white.svg" alt="Логотип социальной сети">
+              <a class="footer__link link" href="https://www.instagram.com/yndx.praktikum/">
+                <img class="footer__social-icon" src="./images/footer/instagram_white.svg" alt="Логотип социальной сети">
                 Instagram
               </a>
             </li>

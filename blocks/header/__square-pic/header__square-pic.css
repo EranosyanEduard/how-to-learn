@@ -1,12 +1,3 @@
-@keyframes square-360-deg {
-  from {
-    transform: rotate(-15deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .header__square-pic {
   width: 568px;
   height: 568px;
