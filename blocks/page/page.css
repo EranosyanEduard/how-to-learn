@@ -1,11 +1,31 @@
+@font-face {
+  src: url(../../vendor/fonts/open_sans/OpenSans-Regular.ttf);
+  font-family: 'Open Sans';
+}
+
+@font-face {
+  src: url(../../vendor/fonts/open_sans/OpenSans-Bold.ttf);
+  font-family: 'Open Sans';
+  font-weight: bold;
+}
+
+@font-face {
+  src: url(../../vendor/fonts/open_sans/OpenSans-Italic.ttf);
+  font-family: 'Open Sans';
+  font-style: italic;
+}
+
+@font-face {
+  src: url(../../vendor/fonts/open_sans/OpenSans-BoldItalic.ttf);
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-style: italic;
+}
+
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   box-sizing: border-box;
 }
